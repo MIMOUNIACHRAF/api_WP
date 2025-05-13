@@ -295,7 +295,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGGING = {",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# LOGGING = {",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -304,7 +304,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGGING = {\n    'version': 1,",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# LOGGING = {\n#     'version': 1,",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -313,7 +313,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# LOGGING = {\n#     'version': 1,\n#     'disable_existing_loggers': False,",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -322,7 +322,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'console': {\n            'level': 'DEBUG',",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# LOGGING = {\n#     'version': 1,\n#     'disable_existing_loggers': False,\n#     'handlers': {\n#         'console': {\n#             'level': 'DEBUG',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -331,16 +331,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'console': {\n            'level': 'DEBUG',\n            'class': 'logging.StreamHandler',\n        },\n    },",
-        "detail": "api.settings",
-        "documentation": {}
-    },
-    {
-        "label": "LOGGING",
-        "kind": 5,
-        "importPath": "api.settings",
-        "description": "api.settings",
-        "peekOfCode": "LOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'console': {\n            'level': 'DEBUG',\n            'class': 'logging.StreamHandler',\n        },\n    },\n    'loggers': {",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# LOGGING = {\n#     'version': 1,\n#     'disable_existing_loggers': False,\n#     'handlers': {\n#         'console': {\n#             'level': 'DEBUG',\n#             'class': 'logging.StreamHandler',\n#         },\n#     },",
         "detail": "api.settings",
         "documentation": {}
     },
