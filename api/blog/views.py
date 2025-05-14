@@ -16,3 +16,11 @@ def api_posts(request):
 
 def blog_view(request):
     return HttpResponse("This is the blog page.")
+
+from rest_framework import generics
+from .models import Candidature
+from .serializers import CandidatureSerializer
+
+class CandidatureCreateAPIView(generics.CreateAPIView):
+    queryset = Candidature.objects.all()
+    serializer_class = CandidatureSerializer
