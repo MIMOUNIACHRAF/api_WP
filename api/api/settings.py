@@ -25,12 +25,21 @@ SECRET_KEY = 'django-insecure-xiqj2_d#9+vwi^!n+sbj45wf_+u*+rbpr1k+yyuydey#+a_2g(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['papazaa.pythonanywhere.com', 'localhost']
+
+
+CORS_ALLOWED_ORIGINS = [
+    'https://7ef9cae2ba2313.lhr.life',
+]
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+USE_X_FORWARDED_HOST = True
+
 
 
 # Application definition
 
-INSTALLED_APPS = ['corsheaders',
+INSTALLED_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -51,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True  
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'api.urls'
 

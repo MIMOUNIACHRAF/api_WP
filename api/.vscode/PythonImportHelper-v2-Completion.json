@@ -89,6 +89,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -167,7 +183,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-xiqj2_d#9+vwi^!n+sbj45wf_+u*+rbpr1k+yyuydey#+a_2g('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = ['corsheaders',",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-xiqj2_d#9+vwi^!n+sbj45wf_+u*+rbpr1k+yyuydey#+a_2g('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['papazaa.pythonanywhere.com', 'localhost']\nCORS_ALLOWED_ORIGINS = [\n    'https://7ef9cae2ba2313.lhr.life',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -176,7 +192,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-xiqj2_d#9+vwi^!n+sbj45wf_+u*+rbpr1k+yyuydey#+a_2g('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = ['corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-xiqj2_d#9+vwi^!n+sbj45wf_+u*+rbpr1k+yyuydey#+a_2g('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['papazaa.pythonanywhere.com', 'localhost']\nCORS_ALLOWED_ORIGINS = [\n    'https://7ef9cae2ba2313.lhr.life',\n]\nSECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')\nUSE_X_FORWARDED_HOST = True\n# Application definition",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -185,7 +201,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = ['corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['papazaa.pythonanywhere.com', 'localhost']\nCORS_ALLOWED_ORIGINS = [\n    'https://7ef9cae2ba2313.lhr.life',\n]\nSECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')\nUSE_X_FORWARDED_HOST = True\n# Application definition\nINSTALLED_APPS = [\n    'corsheaders',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -194,7 +210,34 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = ['corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog',",
+        "peekOfCode": "ALLOWED_HOSTS = ['papazaa.pythonanywhere.com', 'localhost']\nCORS_ALLOWED_ORIGINS = [\n    'https://7ef9cae2ba2313.lhr.life',\n]\nSECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')\nUSE_X_FORWARDED_HOST = True\n# Application definition\nINSTALLED_APPS = [\n    'corsheaders',\n    'django.contrib.admin',",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'https://7ef9cae2ba2313.lhr.life',\n]\nSECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')\nUSE_X_FORWARDED_HOST = True\n# Application definition\nINSTALLED_APPS = [\n    'corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECURE_PROXY_SSL_HEADER",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')\nUSE_X_FORWARDED_HOST = True\n# Application definition\nINSTALLED_APPS = [\n    'corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_X_FORWARDED_HOST",
+        "kind": 5,
+        "importPath": "api.settings",
+        "description": "api.settings",
+        "peekOfCode": "USE_X_FORWARDED_HOST = True\n# Application definition\nINSTALLED_APPS = [\n    'corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -203,7 +246,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "INSTALLED_APPS = ['corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog',\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'corsheaders',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog',\n]",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -221,7 +264,7 @@
         "kind": 5,
         "importPath": "api.settings",
         "description": "api.settings",
-        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True  \nROOT_URLCONF = 'api.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nROOT_URLCONF = 'api.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',",
         "detail": "api.settings",
         "documentation": {}
     },
@@ -349,6 +392,15 @@
         "description": "blog.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('titre', models.CharField(max_length=200)),",
         "detail": "blog.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0002_candidature",
+        "description": "blog.migrations.0002_candidature",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Candidature',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nom', models.CharField(max_length=100)),",
+        "detail": "blog.migrations.0002_candidature",
         "documentation": {}
     },
     {

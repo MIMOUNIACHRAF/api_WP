@@ -1,2 +1,7 @@
 **/wsgi.py
 api/api/wsgi.py
+# Ignorer la base de données SQLite
+db.sqlite3
+
+# Ignorer le dossier virtualenv
+venv/
