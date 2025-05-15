@@ -12,7 +12,8 @@ class Candidature(models.Model):
     nom = models.CharField(max_length=100)
     email = models.EmailField()
     cv = models.URLField()
-    offre_id = models.IntegerField()  # Index ou ID de l’offre depuis le frontend
+    offre = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="candidatures", null=True)
+
     date_postulation = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
