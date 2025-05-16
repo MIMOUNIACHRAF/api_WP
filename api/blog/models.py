@@ -6,7 +6,7 @@ class Post(models.Model):
     date_creation = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.titre} by {self.contenu}"  # This is a string
+        return f"{self.id} {self.titre} by {self.contenu}"  # This is a string
 
 class Candidature(models.Model):
     nom = models.CharField(max_length=100)
